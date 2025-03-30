@@ -18,9 +18,12 @@
     </header>
     <main class="container">
       <section class="profile-section">
-        <img id="profile-image" src="./images/profileImage.png" />
-        <h2 class="name">하지민</h2>
-        <h2 class="nickname">However</h2>
+        <img id="profile-image" src="./images/profileImage.svg" />
+        <div class="name-nickname">
+          <h2 class="name">하지민</h2>
+          <span class="slash">/</span>
+          <h2 class="nickname">However</h2>
+        </div>
         <p class="subtext">벌써 4월이라니</p>
       </section>
 
@@ -37,10 +40,20 @@
               <span class="value">JiiminHa</span>
             </li>
             <li>
-              <span class="label">닉네임 설정</span>
+              <a href="edit-nickname.html" class="link-item">
+                <span class="label">닉네임 설정</span>
+              </a>
             </li>
-            <li><span class="label">상태 메시지 설정</span></li>
-            <li><span class="label">비밀번호 변경</span></li>
+            <li>
+              <a href="edit-status.html" class="link-item">
+                <span class="label">상태 메시지 설정</span>
+              </a>
+            </li>
+            <li>
+              <a href="change-password.html" class="link-item">
+                <span class="label">비밀번호 변경</span>
+              </a>
+            </li>
           </ul>
         </div>
         <div class="community-box">
@@ -50,11 +63,20 @@
               <span class="label">활동 기수/파트</span>
               <span class="value">13기 기획, 디자이너</span>
             </li>
-            <li><span class="label">참여 중인 스터디</span></li>
-            <li><span class="label">상/벌점 내역</span></li>
+            <li>
+              <a href="study-list.html" class="link-item">
+                <span class="label">참여 중인 스터디</span>
+              </a>
+            </li>
+            <li>
+              <a href="points.html" class="link-item">
+                <span class="label">상/벌점 내역</span>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
     </main>
+    <script src="mypage.js"></script>
   </body>
 </html>
