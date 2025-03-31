@@ -6,6 +6,7 @@ body {
 /* header */
 header {
   display: flex;
+  justify-content: space-between;
 }
 
 #logo_sookmutsa {
@@ -14,7 +15,6 @@ header {
 
 nav {
   position: relative;
-  left: calc(100vw - 450px);
 }
 
 #mypage {
